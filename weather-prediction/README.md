@@ -1,18 +1,31 @@
-# Weather Prediction using Machine Learning
+# 🌦️ Weather Prediction using Machine Learning
 
-## About the Project
-This is my first machine learning project created using Python.
-The goal is to understand basic ML concepts like training a model and making predictions.
+## 📌 Project Overview
+This project demonstrates a simple machine learning workflow using Python to predict rainfall based on temperature and humidity.
 
-## What This Project Does
-- Uses sample weather data
-- Trains a simple machine learning model
-- Predicts rainfall based on temperature and humidity
+## 🎯 Objective
+To understand the fundamentals of machine learning:
+- Dataset creation
+- Feature selection
+- Model training
+- Prediction
 
-## Technologies Used
+## 🧠 Machine Learning Model
+- Linear Regression
+
+## 🛠️ Technologies Used
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
 
-## Project Status
-Initial setup completed
+## ⚙️ Workflow
+1. Create sample weather dataset
+2. Split data into training and testing sets
+3. Train a Linear Regression model
+4. Predict rainfall for new inputs
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python weather_prediction.py
